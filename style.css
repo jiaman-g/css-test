@@ -1,0 +1,37 @@
+.black {
+    background-color: black;
+    color: white;
+}
+.box {
+    border: 50px solid red;
+    padding: 50px;  
+    width: 200px;  
+    margin-top: 20px;
+}
+.green {
+  border: 50px solid green;
+ }
+ .blue {
+  border: 50px solid blue;
+ }
+ h1 {
+    color: #9b59b6; 
+ }
+ p {
+    font-size: 16px;
+    font-family: Verdana;
+    font-style: italic;
+ }
+ .sub-header {
+    color: #2980b9;
+ }
+ p::first-letter {
+    font-size: 200%;   
+    color: #2980b9;   
+}
+h1::before {
+    content: "Topic: ";     
+}
+h1:first-of-type {
+    text-align: center; 
+}
